@@ -1,0 +1,199 @@
+body {
+    background: black;
+    color: white;
+}
+
+.heading1 {
+  float: left;
+  width: 100%;
+  text-align: center;
+  background: #1d1d1d;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.heading2{
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.2em;
+}
+
+.releases {
+  list-style-type: none;
+}
+
+.about {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background: #1d1d1d;
+  color: #808080;
+}
+
+.perform {
+  width: 40%;
+  margin-left: 30%;
+}
+
+iframe {
+  width: 40%;
+  margin-left: 30%;
+  padding-bottom: 0.5em;
+}
+
+.members {
+  width: 100%;
+}
+
+.header img {
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #1d1d1d;
+    overflow: auto;
+  }
+  
+  /* Navigation links */
+.navbar a {
+    float: left;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 14.66%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  
+  /* Add a background color on mouse-over */
+.navbar a:hover {
+    background-color: white;
+    color:black;
+  }
+  
+  /* Style the current/active link */
+.navbar a.active {
+    background-color: white;
+    color: black;
+  }
+
+th, td {
+  border: 1px solid white;
+}
+
+td {
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+th {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1d1d1d;
+  width: 100%;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  text-align: center;
+}
+
+.tour form {
+  padding: 0.25em;
+  font-size: 1.5em;
+  width: 100%;
+  border: solid black;
+  background: #1d1d1d;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.tour input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 5px;
+  transition: width 0.4s ease-in-out;
+}
+
+.tour input[type=text]:focus {
+  width: 20%;
+}
+
+.tour input[type=submit] {
+  width: 80px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+  background: #1d1d1d;
+  color: white;
+  font-size: 0.7em;
+  border: 1px solid grey;
+}
+
+.tour input[type=submit]:hover {
+  background: white;
+  color: #1d1d1d;
+  cursor: pointer;
+}
+
+.merchitem {
+  display: inline-block;
+  width: 20em;
+  border: 1px solid white;
+  padding: 1em;
+  margin: 2.5em;
+  text-align: center;
+  margin-left: 15%;
+  background: #1d1d1d;
+}
+
+.merchitem img {
+  width: 50%;
+}
+
+
+.tickets:visited {
+  color: white;
+}
+
+  
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media only screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: center; /* If you want the text to be left-aligned on small screens */
+    }
+
+    .perform {
+      width: 100%;
+      margin-left: 0%;
+      float: none;
+    }
+
+    iframe {
+      width: 70%;
+      margin-left: 10%;
+    }
+  }
